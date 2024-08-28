@@ -20,19 +20,8 @@ public class User {
     @Column(name = "age")
     private int age;
 
-    public User() {}
+    public User() {
 
-    public User(int id, String name, String surname, int age) {
-        this.id = id;
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
-    }
-
-    public User(String name, String surname, int age) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
     }
 
     public String getName() {
